@@ -1,0 +1,94 @@
+2020-04-01 00:00:31,742 INFO     --------------------------------------------------------------
+2020-04-01 00:00:42,398 INFO     spreadsheet updated
+2020-04-01 00:05:42,502 INFO     --------------------------------------------------------------
+2020-04-01 00:05:57,262 INFO     spreadsheet updated
+2020-04-01 00:10:57,271 INFO     --------------------------------------------------------------
+2020-04-01 00:11:07,088 INFO     spreadsheet updated
+2020-04-01 00:16:07,112 INFO     --------------------------------------------------------------
+2020-04-01 00:16:18,575 INFO     spreadsheet updated
+2020-04-01 00:21:18,646 INFO     --------------------------------------------------------------
+2020-04-01 00:21:28,824 INFO     spreadsheet updated
+2020-04-01 00:26:28,871 INFO     --------------------------------------------------------------
+2020-04-01 00:26:53,763 INFO     spreadsheet updated
+2020-04-01 00:31:53,799 INFO     --------------------------------------------------------------
+2020-04-01 00:32:04,313 INFO     spreadsheet updated
+2020-04-01 00:37:04,341 INFO     --------------------------------------------------------------
+2020-04-01 00:38:14,907 ERROR    Traceback (most recent call last):
+2020-04-01 00:38:14,907 ERROR      File "/var/www/feeder/feeder/feederTimeService.py", line 179, in <module>
+2020-04-01 00:38:14,910 ERROR    output = commonTasks.update_spreadsheet()
+2020-04-01 00:38:14,911 ERROR      File "/var/www/feeder/feeder/commonTasks.py", line 243, in update_spreadsheet
+2020-04-01 00:38:14,914 ERROR    format_cell_range(sheet, "A3:B3", fmt)  # Latest time title
+2020-04-01 00:38:14,914 ERROR      File "/var/www/feeder/lib/python3.7/site-packages/gspread_formatting/functions.py", line 46, in format_cell_range
+2020-04-01 00:38:14,916 ERROR    return format_cell_ranges(worksheet, [(name, cell_format)])
+2020-04-01 00:38:14,916 ERROR      File "/var/www/feeder/lib/python3.7/site-packages/gspread_formatting/functions.py", line 35, in format_cell_ranges
+2020-04-01 00:38:14,917 ERROR    return worksheet.spreadsheet.batch_update(body)
+2020-04-01 00:38:14,917 ERROR      File "/var/www/feeder/lib/python3.7/site-packages/gspread/models.py", line 101, in batch_update
+2020-04-01 00:38:14,919 ERROR    json=body
+2020-04-01 00:38:14,920 ERROR      File "/var/www/feeder/lib/python3.7/site-packages/gspread/client.py", line 79, in request
+2020-04-01 00:38:14,922 ERROR    raise APIError(response)
+2020-04-01 00:38:14,922 ERROR    gspread.exceptions
+2020-04-01 00:38:14,923 ERROR    .
+2020-04-01 00:38:14,923 ERROR    APIError
+2020-04-01 00:38:14,923 ERROR    :
+2020-04-01 00:38:14,923 ERROR    <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 502 (Server Error)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>502.</b> <ins>That’s an error.</ins>
+  <p>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.  <ins>That’s all we know.</ins>
+2020-04-01 00:38:14,925 ERROR    Exception ignored in:
+2020-04-01 00:38:14,926 ERROR    <__main__.MyLogger object at 0x75aca710>
+2020-04-01 00:38:14,926 ERROR    AttributeError
+2020-04-01 00:38:14,926 ERROR    :
+2020-04-01 00:38:14,926 ERROR    'MyLogger' object has no attribute 'flush'
+2020-04-01 23:46:44,507 INFO     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-04-01 23:46:44,509 INFO     Starting up
+2020-04-01 23:46:44,509 INFO     Time delay default is: 300 seconds
+2020-04-01 23:46:44,509 INFO     Create Gracekiller class
+2020-04-01 23:46:44,510 INFO     End Start up. Starting while loop
+2020-04-01 23:46:44,510 INFO     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-04-01 23:46:44,511 INFO     --------------------------------------------------------------
+2020-04-01 23:46:46,359 INFO     One off scheduled time 2020-04-02 16:09:00
+2020-04-01 23:46:46,360 INFO     Not past due yet
+2020-04-01 23:46:46,360 INFO     One off scheduled time 2020-04-01 23:07:00
+2020-04-01 23:46:46,361 INFO     Scheduled record found past due
+2020-04-01 23:46:46,361 INFO     Current time: 2020-04-01 23:46:46.361038
+2020-04-01 23:46:46,361 INFO     Scheduled time: 2020-04-01 23:07:00
+2020-04-01 23:46:46,361 INFO     Minutes difference: 39
+2020-04-01 23:46:50,583 INFO     Auto feed success
+2020-04-01 23:46:51,471 INFO     Deleted old record from DB
+2020-04-01 23:47:03,195 INFO     spreadsheet updated
+2020-04-01 23:47:26,438 INFO     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-04-01 23:47:26,440 INFO     Starting up
+2020-04-01 23:47:26,440 INFO     Time delay default is: 300 seconds
+2020-04-01 23:47:26,440 INFO     Create Gracekiller class
+2020-04-01 23:47:26,441 INFO     End Start up. Starting while loop
+2020-04-01 23:47:26,441 INFO     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-04-01 23:47:26,441 INFO     --------------------------------------------------------------
+2020-04-01 23:47:28,333 INFO     One off scheduled time 2020-04-02 16:09:00
+2020-04-01 23:47:28,335 INFO     Not past due yet
+2020-04-01 23:47:28,335 INFO     One off scheduled time 2020-04-01 16:10:00
+2020-04-01 23:47:28,336 INFO     Scheduled record found past due
+2020-04-01 23:47:28,337 INFO     Current time: 2020-04-01 23:47:28.336367
+2020-04-01 23:47:28,337 INFO     Scheduled time: 2020-04-01 16:10:00
+2020-04-01 23:47:28,338 INFO     Minutes difference: 457
+2020-04-01 23:47:37,457 INFO     Auto feed success
+2020-04-01 23:47:38,665 INFO     Deleted old record from DB
+2020-04-01 23:48:16,303 INFO     spreadsheet updated
+2020-04-01 23:53:16,404 INFO     --------------------------------------------------------------
+2020-04-01 23:53:18,236 INFO     One off scheduled time 2020-04-02 16:09:00
+2020-04-01 23:53:18,237 INFO     Not past due yet
+2020-04-01 23:53:28,470 INFO     spreadsheet updated
+2020-04-01 23:58:06,465 INFO     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-04-01 23:58:06,466 INFO     Starting up
+2020-04-01 23:58:06,466 INFO     Time delay default is: 300 seconds
+2020-04-01 23:58:06,467 INFO     Create Gracekiller class
+2020-04-01 23:58:06,467 INFO     End Start up. Starting while loop
+2020-04-01 23:58:06,468 INFO     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-04-01 23:58:06,468 INFO     --------------------------------------------------------------
+2020-04-01 23:58:19,958 INFO     spreadsheet updated

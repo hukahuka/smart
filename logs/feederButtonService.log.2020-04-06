@@ -1,0 +1,7 @@
+2020-04-06 21:49:39,678 INFO     -------------------------------------------------------------------------
+2020-04-06 21:49:40,062 INFO     Button was pressed at 2020-04-06 21:49:40.048307
+2020-04-06 21:49:40,224 INFO     Last feed time in DB was at 2020-04-02 14:25:00
+2020-04-06 21:49:40,226 INFO     Difference in seconds between two: 26680
+2020-04-06 21:49:40,833 INFO     End Hopper return status: ok
+2020-04-06 21:49:41,323 INFO     End DB Insert return status: ok
+2020-04-06 21:49:43,216 INFO     End Message Display return status: ok

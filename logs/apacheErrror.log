@@ -1,0 +1,2 @@
+[Fri Apr 24 16:01:59.647837 2020] [wsgi:error] [pid 28853] (2)No such file or directory: [client 192.168.1.38:42232] mod_wsgi (pid=28853): Unable to connect to WSGI daemon process 'feeder' on '/var/run/apache2/wsgi.24768.28.1.sock' as user with uid=33.
+[Fri Apr 24 16:31:54.659007 2020] [wsgi:error] [pid 30054] (2)No such file or directory: [client 192.168.1.38:42268] mod_wsgi (pid=30054): Unable to connect to WSGI daemon process 'feeder' on '/var/run/apache2/wsgi.24768.39.1.sock' as user with uid=33.

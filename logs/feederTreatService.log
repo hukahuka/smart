@@ -1,0 +1,14 @@
+2020-04-02 00:05:59,886 INFO     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-04-02 00:05:59,887 INFO     Starting up
+2020-04-02 00:06:02,698 INFO     Welcome message return status: ok
+2020-04-02 00:06:02,728 INFO     Screen message to print: Last feed time:
+Today 12:00 AM
+2020-04-02 00:06:04,556 INFO     Message display return status: ok
+2020-04-02 00:06:04,557 INFO     Create Gracekiller class
+2020-04-02 00:06:04,557 INFO     Set up button for While Loop
+2020-04-02 00:06:04,558 ERROR    Traceback (most recent call last):
+2020-04-02 00:06:04,559 ERROR      File "feederTreatService.py", line 100, in <module>
+2020-04-02 00:06:04,559 ERROR    treatButton = int(treatButtonGPIO)
+2020-04-02 00:06:04,559 ERROR    NameError
+2020-04-02 00:06:04,560 ERROR    :
+2020-04-02 00:06:04,560 ERROR    name 'treatButtonGPIO' is not defined

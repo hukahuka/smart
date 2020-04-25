@@ -1,0 +1,44 @@
+2020-04-01 00:13:57,345 INFO     -------------------------------------------------------------------------
+2020-04-01 00:13:57,465 INFO     Button was pressed at 2020-04-01 00:13:57.465586
+2020-04-01 00:13:57,468 INFO     Last feed time in DB was at 2020-03-31 22:36:41
+2020-04-01 00:13:57,468 INFO     Difference in seconds between two: 5836
+2020-04-01 00:13:58,069 INFO     End Hopper return status: ok
+2020-04-01 00:13:58,601 INFO     End DB Insert return status: ok
+2020-04-01 00:14:00,459 INFO     End Message Display return status: ok
+2020-04-01 23:47:01,370 INFO     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-04-01 23:47:01,384 INFO     End of the program loop. Killed gracefully
+2020-04-01 23:47:01,385 INFO     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-04-01 23:47:02,092 ERROR    Exception ignored in:
+2020-04-01 23:47:02,104 ERROR    <__main__.MyLogger object at 0x75a51e70>
+2020-04-01 23:47:02,105 ERROR    AttributeError
+2020-04-01 23:47:02,105 ERROR    :
+2020-04-01 23:47:02,105 ERROR    'MyLogger' object has no attribute 'flush'
+2020-04-01 23:47:26,421 INFO     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-04-01 23:47:26,421 INFO     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-04-01 23:47:26,423 INFO     Starting up
+2020-04-01 23:47:26,423 INFO     Starting up
+2020-04-01 23:47:29,247 INFO     Welcome message return status: ok
+2020-04-01 23:47:29,250 INFO     Welcome message return status: ok
+2020-04-01 23:47:35,693 INFO     Screen message to print: Last feed time:
+Today 11:07 PM
+2020-04-01 23:47:35,695 INFO     Screen message to print: Last feed time:
+Today 11:07 PM
+2020-04-01 23:47:37,547 INFO     Message display return status: ok
+2020-04-01 23:47:37,547 INFO     Create Gracekiller class
+2020-04-01 23:47:37,548 INFO     Set up button for While Loop
+2020-04-01 23:47:37,548 INFO     End Start up. Starting while loop
+2020-04-01 23:47:37,548 INFO     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-04-01 23:47:37,563 INFO     Message display return status: ok
+2020-04-01 23:47:37,564 INFO     Create Gracekiller class
+2020-04-01 23:47:37,564 INFO     Set up button for While Loop
+2020-04-01 23:47:37,565 ERROR    Traceback (most recent call last):
+2020-04-01 23:47:37,565 ERROR      File "/var/www/feeder/feeder/feederTreatService.py", line 99, in <module>
+2020-04-01 23:47:37,566 ERROR    treatButton = int(treatButtonGPIO)
+2020-04-01 23:47:37,566 ERROR    NameError
+2020-04-01 23:47:37,566 ERROR    :
+2020-04-01 23:47:37,566 ERROR    name 'treatButtonGPIO' is not defined
+2020-04-01 23:47:37,567 ERROR    Exception ignored in:
+2020-04-01 23:47:37,567 ERROR    <__main__.MyLogger object at 0x75afced0>
+2020-04-01 23:47:37,567 ERROR    AttributeError
+2020-04-01 23:47:37,567 ERROR    :
+2020-04-01 23:47:37,568 ERROR    'MyLogger' object has no attribute 'flush'
