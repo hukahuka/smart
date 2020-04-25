@@ -1,0 +1,13 @@
+.treatButton {
+width:7em;height:3em;
+border-top: 1px solid #919191;
+   background: #00bfff;
+   color: #ffffff;
+   font-size: 40px;
+   text-align: center;
+   }
+.treatButton:hover {
+border-top: 1px solid #919191;
+   background: #e982f5;
+   color: #ffffff;
+   }
