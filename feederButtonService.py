@@ -82,14 +82,6 @@ class GracefulKiller:
 print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
 print("Starting up")
 
-welcomeMessage = commonTasks.print_to_LCDScreen("Welcome!")
-time.sleep(1)
-print("Welcome message return status: " + str(welcomeMessage))
-
-screenMessage = commonTasks.get_last_feedtime_string()
-print("Screen message to print: " + str(screenMessage))
-lastFeedTime = commonTasks.print_to_LCDScreen(screenMessage)
-print("Message display return status: " + str(lastFeedTime))
 
 print("Create Gracekiller class")
 killer = GracefulKiller()
