@@ -110,8 +110,7 @@ while True:
             print("End Hopper return status: " + str(spin))
             dblog = commonTasks.db_insert_feedtime(buttonPressDatetime, 1)
             print("End DB Insert return status: " + str(dblog))
-            updatescreen = commonTasks.print_to_LCDScreen(commonTasks.get_last_feedtime_string())
-            print("End Message Display return status: " + str(updatescreen))
+            
 
     if killer.kill_now: break
 print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
